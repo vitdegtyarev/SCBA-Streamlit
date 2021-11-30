@@ -20,63 +20,63 @@ from PIL import Image
 #ML models for predicting elastic buckling load
 
 #Desision tree (DT)
-DT_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_DT_2021-03-19.joblib')
-DT_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_DT_2021-03-19.pkl','rb'))
+DT_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_DT_2021-03-19.joblib')
+DT_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_DT_2021-03-19.pkl','rb'))
 
 #Random forest (RF)
-RF_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_RF_2021_03_19.joblib')
-RF_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_RF_2021_03_19.pkl','rb'))
+RF_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_RF_2021_03_19.joblib')
+RF_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_RF_2021_03_19.pkl','rb'))
 
 #K-nearest neighbor (KNN)
-KNN_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_KNN_2021-03-19.joblib')
-KNN_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_KNN_2021-03-19.pkl','rb'))
+KNN_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_KNN_2021-03-19.joblib')
+KNN_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_KNN_2021-03-19.pkl','rb'))
 
 #Gradient boosting regressor (GBR)
-GBR_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_GBR_2021_03_20.joblib')
-GBR_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_GBR_2021_03_20.pkl','rb'))
+GBR_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_GBR_2021_03_20.joblib')
+GBR_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_GBR_2021_03_20.pkl','rb'))
 
 #Extreme gradient boosting (XGBoost)
-XGBoost_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_XGBoost_2021_03_20.joblib')
-XGBoost_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_XGBoost_2021_03_20.pkl','rb'))
+XGBoost_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_XGBoost_2021_03_20.joblib')
+XGBoost_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_XGBoost_2021_03_20.pkl','rb'))
 
 #Light gradient boosting machine (LightGBM)
-LightGBM_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_LightGBM_2021_03_09.joblib')
-LightGBM_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_LightGBM_2021_03_09.pkl','rb'))
+LightGBM_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_LightGBM_2021_03_09.joblib')
+LightGBM_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_LightGBM_2021_03_09.pkl','rb'))
 
 #Gradient boosting with categorical features support (CatBoost)
-CatBoost_Elastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_CatBoost_2021_03_20.joblib')
-CatBoost_Elastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Elastic_CatBoost_2021_03_20.pkl','rb'))
+CatBoost_Elastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Elastic_CatBoost_2021_03_20.joblib')
+CatBoost_Elastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Elastic_CatBoost_2021_03_20.pkl','rb'))
 
 
 #ML models for predicting ultimate load
 
 #Desision tree (DT)
-DT_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_DT_2021-03-19.joblib')
-DT_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_DT_2021-03-19.pkl','rb'))
+DT_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_DT_2021-03-19.joblib')
+DT_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_DT_2021-03-19.pkl','rb'))
 
 #Random forest (RF)
-RF_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_RF_2021_03_19.joblib')
-RF_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_RF_2021_03_19.pkl','rb'))
+RF_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_RF_2021_03_19.joblib')
+RF_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_RF_2021_03_19.pkl','rb'))
 
 #K-nearest neighbor (KNN)
-KNN_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_KNN_2021-03-19.joblib')
-KNN_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_KNN_2021-03-19.pkl','rb'))
+KNN_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_KNN_2021-03-19.joblib')
+KNN_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_KNN_2021-03-19.pkl','rb'))
 
 #Gradient boosting regressor (GBR)
-GBR_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_GBR_2021_03_13.joblib')
-GBR_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_GBR_2021_03_13.pkl','rb'))
+GBR_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_GBR_2021_03_13.joblib')
+GBR_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_GBR_2021_03_13.pkl','rb'))
 
 #Extreme gradient boosting (XGBoost)
-XGBoost_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_XGBoost_2021_03_14.joblib')
-XGBoost_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_XGBoost_2021_03_14.pkl','rb'))
+XGBoost_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_XGBoost_2021_03_14.joblib')
+XGBoost_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_XGBoost_2021_03_14.pkl','rb'))
 
 #Light gradient boosting machine (LightGBM)
-LightGBM_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_LightGBM_2021_03_09.joblib')
-LightGBM_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_LightGBM_2021_03_09.pkl','rb'))
+LightGBM_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_LightGBM_2021_03_09.joblib')
+LightGBM_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_LightGBM_2021_03_09.pkl','rb'))
 
 #Gradient boosting with categorical features support (CatBoost)
-CatBoost_Inelastic_model = joblib.load('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_CatBoost_2021_03_14.joblib')
-CatBoost_Inelastic_scaler=pickle.load(open('~/1/SCBA-Streamlit/Cellular_Beams_Inelastic_CatBoost_2021_03_14.pkl','rb'))
+CatBoost_Inelastic_model = joblib.load('SCBA-Streamlit/Cellular_Beams_Inelastic_CatBoost_2021_03_14.joblib')
+CatBoost_Inelastic_scaler=pickle.load(open('SCBA-Streamlit/Cellular_Beams_Inelastic_CatBoost_2021_03_14.pkl','rb'))
 
 
 # In[3]:
@@ -94,7 +94,7 @@ st.sidebar.header('User Input Parameters')
 # In[4]:
 
 
-image = Image.open('~/1/SCBA-Streamlit/Cell_Beam_App.png')
+image = Image.open('SCBA-Streamlit/Cell_Beam_App.png')
 st.subheader('Dimensional Parameters')
 st.image(image)
 
