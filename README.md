@@ -14,4 +14,4 @@ The application is based on the models described in the following preprint: Degt
 6. The application opens in a web browser tab.
 7. Use sliders and radio buttons to change beam parameters.
 
-![This is an image](https://github.com/vitdegtyarev/SCBA-Streamlit.git/GUI_App.png)
+![This is an image](GUI_App.png)
