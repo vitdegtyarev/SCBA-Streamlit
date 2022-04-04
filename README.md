@@ -2,7 +2,7 @@
 
 This Streamlit application predicts the elastic buckling and ultimate loads of steel cellular beams using optimized ML models, including decision tree (DT), random forest (RF), k-nearest neighbor (KNN), gradient boosting regressor (GBR), extreme gradient boosting (XGBoost), light gradient boosting machine (LightGBM), and gradient boosting with categorical features support (CatBoost).
 
-The application is based on the models described in the following peper: Degtyarev, V. V., & Tsavdaridis, K. D. (2022). Buckling and ultimate load prediction models for perforated steel beams using machine learning algorithms. Journal of Building Engineering, 104316, doi:10.1016/j.jobe.2022.104316
+The application is based on the models described in the following paper: Degtyarev, V. V., & Tsavdaridis, K. D. (2022). Buckling and ultimate load prediction models for perforated steel beams using machine learning algorithms. Journal of Building Engineering, 104316, doi:10.1016/j.jobe.2022.104316
 
 ## Instructions on how to use the application
 
